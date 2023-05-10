@@ -18,16 +18,18 @@ section {
   font-size: 14px;
   line-height: 19px;
   display: inline-block;
-  margin-left: 200px;
-  margin-top: 70px;
-  margin-bottom: 92px;
+  text-align: center;
   color: #7d7d7d;
+  margin: 71px 100px;
+}
+
+.left {
+  margin-left: 315px;
 }
 
 .card {
-  margin: 150px;
+  margin-left: 148px;
   width: 420px;
-  height: 76px;
 }
 
 .TextPid {
@@ -38,7 +40,7 @@ section {
   line-height: 16px;
   color: #b4ad9e;
   display: block;
-  margin-top: 60px;
+  margin-top: 62px;
 }
 
 .card-title {
@@ -49,15 +51,20 @@ section {
   line-height: 40px;
   color: #626262;
   display: block;
-  margin-top: 30px;
+  margin-top: 32px;
   margin-bottom: 40px;
 }
 
 .card-ma {
   font-family: "Playfair Display";
-  font-style: normal;
+  font: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
   color: #626262;
+}
+
+.car-img {
+  width: 420px;
+  height: 280px;
 }
