@@ -1,61 +1,60 @@
-.ete:hover {
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 65px;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 420px;
+  height: 662px;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.item {
+  font-size: 14px;
+  line-height: 19px;
+  color: #7d7d7d;
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.item:hover {
   color: #03a9f4;
 }
 
-.ete {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 19px;
-  display: inline-block;
+.header {
   text-align: center;
-  color: #7d7d7d;
-  margin: 71px 100px;
+  margin-top: 70px;
+  margin-bottom: 90px;
 }
 
-.left {
-  margin-left: 315px;
-}
-
-.card {
-  margin-left: 148px;
-  width: 420px;
-}
-
-.TextPid {
-  font-family: "Ubuntu";
-  font-style: normal;
+.card-subtitle {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-size: 14px;
   line-height: 16px;
   color: #b4ad9e;
-  display: block;
+  text-transform: uppercase;
   margin-top: 62px;
 }
 
 .card-title {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   color: #626262;
-  display: block;
   margin-top: 32px;
-  margin-bottom: 40px;
+  font-weight: 400;
 }
 
-.card-ma {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 400;
+.card-text {
   font-size: 14px;
   line-height: 19px;
   color: #626262;
-}
-
-.car-img {
-  width: 420px;
-  height: 280px;
+  margin-top: 40px;
 }
