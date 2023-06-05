@@ -10,13 +10,13 @@
   width: 250px;
   height: 85px;
   font-size: 10px;
-  background-color: #abdde9e1;
+  background-color: #e7fbff;
   box-sizing: border-box;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   padding: 10px 20px;
-  box-shadow: 7px 5px 3px 0px rgba(0, 0, 0, 0.295);
+  box-shadow: 0px 0px 15px 0px rgba(136, 135, 135, 0.295);
 }
 
 p,
@@ -28,7 +28,7 @@ h4 {
 }
 
 .post {
-  color: #7398db;
+  color: #9ac2db;
   font-size: 1.5em;
   margin-bottom: 8px;
 }
@@ -42,7 +42,7 @@ h4 {
 }
 
 .time {
-  color: #a6a6a8;
+  color: #a3afb9;
   font-size: 1.2em;
   margin: 4px;
 }
